@@ -21,7 +21,7 @@ export default async function Page({ params }: IProps) {
   return (
     <div className="p-4">
       <h1 className="text-2xl font-bold mb-4">{packageName} Icons</h1>
-      <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+      <div className="flex flex-wrap gap-4">
         <IconList lib={lib} />
       </div>
     </div>
