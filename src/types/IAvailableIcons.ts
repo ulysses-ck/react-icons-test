@@ -24,6 +24,4 @@ export enum AvailableIcons {
     GrommetIcons = "gr",
     LucideIcons = "lu",
     RadixIcons = "rx",
-    PhosphorIcons = "ph",
-    LineAwesome = "la",
 }
